@@ -9,21 +9,23 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Jed from './compo/Jed'
 import Footer from './compo/Footer'
 import About from './compo/About'
+import Home from './compo/Home'
 function App() {
 
 
   return (
  <>
+
+<Nav></Nav>
+<Routes>
+
+<Route path="/" element={<Home/>}>
+  
+</Route>
+<Route path="/info" element={<About/>}></Route>
+</Routes>
  <ChakraProvider></ChakraProvider>
- <Nav></Nav>
- <Header></Header>
- <Post></Post>
 
-<>
-
-<Jed></Jed>
-</>
-<Footer></Footer>
  </>
   )
 }

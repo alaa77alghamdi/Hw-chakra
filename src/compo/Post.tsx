@@ -39,6 +39,7 @@ export default function Post(){
             color="gray.800"
             _dark={{ color: "white" }}
             fontWeight="bold"
+            fontFamily={"Helvetica"}
           >
            Jeddah{" "}
             <chakra.span color="brand.600" _dark={{ color: "brand.400" }}>

@@ -70,7 +70,8 @@ export default function Header(){
                 mx={{ sm: "auto", lg: 0 }}
                 color="gray.500"
               >
-               "The determination of the Saudi people is like Mount Tuwaiq"
+               "The determination of the Saudi people is like Mount Tuwaiq It will not be broken unless this mountain collapses and is equal to the ground "
+
 Mohammed bin Salman
               </chakra.p>
               <Box

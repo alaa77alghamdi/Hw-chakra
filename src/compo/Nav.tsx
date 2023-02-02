@@ -27,8 +27,8 @@ import {
   import { BrowserRouter, Route } from "react-router-dom";
   
   const navLinks = [
-    { name: 'Home', path: 'Jed' },
-    { name: 'About', path: '#' },
+    { name: 'Home', path: '/'  },
+    { name: 'About', path: '/info' },
     { name: 'Tourist', path: '#' }
   ];
   
@@ -70,7 +70,7 @@ import {
             </HStack>
           </HStack>
   
-          <IconButton aria-label="Color Switcher" icon={<FiSun />} bg={"#c7b39d"} />
+       
         </Flex>
   
         {/* Mobile Screen Links */}
